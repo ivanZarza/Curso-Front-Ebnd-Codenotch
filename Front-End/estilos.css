@@ -1,17 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #e4e4e4ee;
-  min-width: 100vw;
 }
 
 header {
   width: 100%;
   border: 1px solid rgb(71, 71, 71);
   background-color: #8f8f8f;
+  margin: 30px;
   color: white;
   padding: 30px;
   gap: 20px;
   text-align: center;
   font-size: large;
+}
+
+h1{
+  padding: 10px;
 }
 
 a {
@@ -22,7 +30,7 @@ a {
   padding: 10px;
   border-radius: 20%;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2em;
+  font-size: 1.0em;
 }
 
 a:hover {
@@ -34,10 +42,10 @@ img {
   background-image: radial-gradient(circle, #000000, #b4b4b4);
   border:3px solid #000000;
   padding: 20px;
-  margin: 20px;
+  margin: 40px;
+  margin-top: 80px;
   width: 45%;
   float: inline-end;
-  margin-top: 60px;
 }
 
 .texto {
