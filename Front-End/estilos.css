@@ -3,13 +3,14 @@
 }
 
 body {
-  background-color: #e4e4e4ee;
+  background-image: radial-gradient( 1% 1000%, circle, #000000,#ffffff);
 }
 
 header {
-  width: 100%;
+  width: 96.5%;
   border: 1px solid rgb(71, 71, 71);
-  background-color: #8f8f8f;
+/*   background-color: #8f8f8f; */
+background-image: linear-gradient(to bottom, #474747, #aca8a8);
   margin: 30px;
   color: white;
   padding: 30px;
@@ -20,6 +21,8 @@ header {
 
 h1{
   padding: 10px;
+  font-size: 2.5em;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 a {
@@ -43,7 +46,7 @@ img {
   border:3px solid #000000;
   padding: 20px;
   margin: 40px;
-  margin-top: 80px;
+  margin-top: 45px;
   width: 45%;
   float: inline-end;
 }
@@ -62,11 +65,10 @@ font-size: 1.5rem;
 }
 
 footer{
-  width: 100%;
+  width: 98%;
   padding: 30px;
-  background-color: #474747;
+background-image: linear-gradient(to top, #474747, #aca8a8);
   text-align: center;
-  margin: 20px 0px;
   position: relative;
   bottom: -50px;
 }
